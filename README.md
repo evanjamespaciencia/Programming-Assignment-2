@@ -56,10 +56,10 @@ print("\nCubed first 100 integers (in 10x10):\n",C,"\nDivisble by 4: ",div_by_4)
 Create a 6 × 6 array named S containing the squares of the first 36 positive integers in increasing row-major order. Compute the mean of all elements of S and store it in S_mean. Then use Boolean filtering to select only the elements strictly greater than S_mean. Store these values in above_mean.<br>
 <br>The following functions and methods were used:<br>
 ``.arange(a,b,c)`` - Creates an array of evenly spaced values of c starting from a, to b, excluding the final value<br>
-``c.reshape(a,b)`` - Reshapes array c into a(row) x b(colume)<br>
+``c.reshape(a,b)`` - Reshapes array c into a(row) x b(column)<br>
 ``.mean()`` - Calculates the average of the array <br>
 ``S[S>2]`` - Selects all the values of S when the statement/operation is true <br>
-<br>These built-in functions and methods were then combined to produce a Python code that meets the requirements: Display S, S mean, above mean, and the number of selected elements. A correct solution has 15 selected elements; the first is 484 and the last is 1296.<br><br>
+<br>These built-in functions and methods were then combined to produce a Python code that meets the requirements: Display S, S_mean, above_mean, and the number of selected elements. A correct solution has 15 selected elements; the first is 484 and the last is 1296.<br><br>
 ```
 S=np.arange(1,37,1)**2
 S.reshape(6,6)
