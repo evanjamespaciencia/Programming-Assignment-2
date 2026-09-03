@@ -72,4 +72,6 @@ print("S: \n",S,"\nS_Mean: \n",S_mean,"\nAbove Mean: \n",Above_mean)
 Created: 9/2/2026
 <br>Last edited: 9/3/2026
 <br>Changes: <br>
-Updated 2ECEC_Paciencia_PA2.ipynv
+Updated 2ECEC_Paciencia_PA2.ipynb<br>
+Added indicators of codes for each problem in 2ECEC_Paciencia_PA2.ipynb
+
